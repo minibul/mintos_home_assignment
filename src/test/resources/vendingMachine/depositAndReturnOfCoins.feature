@@ -15,10 +15,10 @@
 #    When the user inserts multiple coins of these denominations
 #    Then all the coins are accepted and the user's balance increases by the total value of the inserted coins
 #
-#  Scenario: Attempt to insert a coin with the wrong side up
+#  Scenario: Inserting a coin with either side up
 #    Given the vending machine accepts coins of 5ȼ, 10ȼ, 20ȼ, 50ȼ, 1€ and 2€ denominations
-#    When the user attempts to insert a coin with the wrong side up
-#    Then the coin is not accepted and the user's balance does not increase
+#    When the user inserts a coin with either side up
+#    Then the coin is accepted and the user's balance increases by the value of the inserted coin.
 #
 #  Scenario: Attempt to insert two coins simultaneously*
 #    Given the vending machine accepts coins of 5ȼ, 10ȼ, 20ȼ, 50ȼ, 1€ and 2€ denominations*
