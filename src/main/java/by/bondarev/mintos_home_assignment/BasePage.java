@@ -8,6 +8,6 @@ public abstract class BasePage {
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
-        driver.manage().window().setSize(new Dimension(1200, 1200));
+        driver.manage().window().setSize(new Dimension(1300, 1000));
     }
 }
